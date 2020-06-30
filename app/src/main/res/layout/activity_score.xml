@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".ScoreActivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/button16"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="#ffffff"
+        android:src="@drawable/average"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="Score"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/scored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="38dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="5"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/outof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="38dp"
+
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="out of 10"
+            android:textAlignment="center"
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+
+        android:text="Done"
+        android:textColor="@android:color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="175dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

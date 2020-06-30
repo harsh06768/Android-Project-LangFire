@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973213571697",
+    "firebase_url": "https://langfire2.firebaseio.com",
+    "project_id": "langfire2",
+    "storage_bucket": "langfire2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973213571697:android:aa72f9a2537f3d005359d0",
+        "android_client_info": {
+          "package_name": "com.example.langfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973213571697-vle938pddgbdljhql3kc53q4uleptlpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmlRDOsNfdHL03jU_pilDhtNGnxvUUrZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973213571697-vle938pddgbdljhql3kc53q4uleptlpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

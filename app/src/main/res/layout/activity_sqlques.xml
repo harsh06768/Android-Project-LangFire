@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlques">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6107"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="MySql Quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+
+
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="MySql Basic"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Setup"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Interact with MySql"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Data types"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Keys"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Table Creation"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Database Operations"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Table Operations"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Server SQL Mode"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9a"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Sysntax and Naming"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button9b"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Case Sensitivity"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9c"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Character Set Support"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9d"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Metadata of Database"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9e"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Functions"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button9f"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Normalization"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9g"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Transactions"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9h"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Join"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Subquery"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button9j"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Union"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button9k"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mysqlcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Using Views"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

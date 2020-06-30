@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Htmlques">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff4373"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="HTML Quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+
+
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                
+                android:drawableLeft="@drawable/htmcircle"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Html Basic"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Html Elements"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Html Attributes"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Html Tables"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Html Lists"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Html Forms"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Compatibility Libraries"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Favicons and Icons"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Video"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9a"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Audio"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9b"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Graphics with Canvas"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9c"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Beyond Markup"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9d"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="HTML5 Themes"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button9e"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Scalable Vector Graphics"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9f"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Fonts in HTML"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9g"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Drag and Drop"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button9h"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Geolocation API"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button9i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/htmcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Web Database"
+                android:textSize="22sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

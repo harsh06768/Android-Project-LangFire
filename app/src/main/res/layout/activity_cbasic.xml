@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Cbasic">
+<!--
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2a1eff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="C Basic"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/ripple2"
+            android:hint="Questions"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="16dp"
+            android:text="1/10"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timex"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="-59dp"
+            android:layout_marginHorizontal="275dp"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="00:00" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#989898"
+             />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_border"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#989898"
+             />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#989898"
+             />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#989898"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
+        android:background="#FA7074"
+
+        android:text="Next"
+        android:enabled="false"
+        android:alpha="0.7"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/options"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

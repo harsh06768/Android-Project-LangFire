@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cpques">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00e5ff"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="C++ Quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+
+
+            >
+
+
+            <Button
+                android:id="@+id/button2p"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/cppcircle"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="C++ Basic"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button21p"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/cppcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Operators in C++"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button4p"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/cppcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Array"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button5p"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Class and Object"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Constructor and Destructor"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Inheritance"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7p"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Polymorphism"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Overloading and Overriding"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="File Handling"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/cppcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Exception Handling"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

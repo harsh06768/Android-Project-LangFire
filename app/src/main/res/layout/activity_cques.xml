@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cques">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2a1eff"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="C Quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+
+
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Basic of C"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/buttond"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Data Types"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="if-else statement"
+                android:textSize="22sp"
+
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Looping Statement"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Functions"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Array"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="String"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Pointer"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Structure and Union"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/ccirclecropped"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="File Handling"
+                android:textSize="22sp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

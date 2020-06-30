@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pythques">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e7bc25"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Python Quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+
+
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Python Basic"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button2d"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Data Types"
+                android:background="@drawable/gradcques"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Operators"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="if-else"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Loops"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Strings"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Functions"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="List"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Tuples"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#FFFFFF"
+                android:text="Sets"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Dictionary"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button10c"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Class and Objects"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button10t"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="try-except"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button10f"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="File Handling"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button10r"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="Regular Expression"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/button10s"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/pythcircle"
+                android:background="@drawable/gradcques"
+                android:inputType="text|textNoSuggestions"
+                android:text="String Formatting"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
