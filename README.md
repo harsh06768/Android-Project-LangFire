@@ -4,4 +4,7 @@
 
 
 # Android-Project-LangFire
-An android Quiz application to enhance your programming skills.
+Description: Lang Fire is an Android Quiz Application that can be used to learn programming language.
+One can test their knowledge of various programming languages using this app.  
+Tools and Technology Used: Android Studio, Firebase
+
